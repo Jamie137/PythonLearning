@@ -1,2 +1,14 @@
 # PythonLearning
 Python学习
+Python+Vscode
+
+1. 官网安装Python解释器
+2. 安装Vscode编辑器
+3. 安装插件
+   1. Chinese
+   2. Python
+
+# 1. 递归问题
+> 基本解题思路
+> 练习题
+> 
