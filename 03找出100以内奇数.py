@@ -7,7 +7,7 @@ for i in range(1,100):
 
 print(list)
 
-# 第二种方法
+# 第二种方法(for的用法)
 list2 = []
 for i in range(1, 100, 2):
     list2.append(i)
