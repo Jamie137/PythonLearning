@@ -15,3 +15,19 @@ def func(nums, target):
 
 
 print(func([1,4,6,7,8,9,55] , 0))
+
+# 实例
+
+def func(nums, target):
+    left = 0
+    right = len(nums) - 1
+    # 从数组的首尾开始，直到两个指针相遇
+    while left <= right:
+        middle = (left + right) // 2
+        if nums[middle] == target:
+            return middle
+        if nums[middle] > target:
+            right = middle - 1
+        else:
+            left = middle + 1
+    return -1
