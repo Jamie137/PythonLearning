@@ -1,0 +1,11 @@
+# 判断字符串是否唯一
+
+def func(str):
+    for i in range(len(str)):
+        if str[i] in str[i+1:]:
+            return False
+        
+    return True
+
+print(func('Hello'))
+    
